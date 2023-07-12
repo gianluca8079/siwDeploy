@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'romaeurdb'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EC15C059F0F14984BBC58F2489F0D7B0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DE56DB8C731D4B1EA799FEA2622D821F }}
           package: '*.jar'
